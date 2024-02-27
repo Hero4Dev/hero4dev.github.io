@@ -165,6 +165,7 @@ main button {
     position: relative;
     left: 45px;
     bottom: 10px;
+    top: 15px;
     cursor: pointer;
     margin-bottom: 180px;
 }
@@ -586,6 +587,10 @@ footer i {
     #submit {
         left: 30px;
     }
+
+    main button {
+        left: 35px;
+    }
 }
 
 @media (max-width:320px) {
@@ -605,5 +610,9 @@ footer i {
 @media (max-width:425px) {
     #submit {
         width: 300px;
+    }
+
+    main button {
+        left: 35px;
     }
 }
