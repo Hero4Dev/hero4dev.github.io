@@ -99,7 +99,7 @@ header{
 #welcome {
     position: relative;
     top: 50px;
-    left: 1px;
+    left: 0px;
 }
 
 #text-1 {
@@ -245,25 +245,6 @@ view-work button-1 {
     position: relative;
     top: 20px;
     font-size: larger;
-}
-
-#title-skills {
-    text-align: center;
-    color: #0000EF;
-    font-weight: 800;
-    font-size: 50px;
-    position: relative;
-    top: 10px;
-}
-
-#main-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-#main-box p {
-    text-align: center;
 }
 
 #About-me{
@@ -561,4 +542,15 @@ footer i {
         font-size: smaller;
     }
 
+    #text-1 {
+        font-size: 50px;
+        left: 30px;
+    }
+
+    #About-me-p {
+        left: 20px;
+    }
+    #About-me {
+        left: 20px;
+    } 
 }
