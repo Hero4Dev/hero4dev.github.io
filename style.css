@@ -374,19 +374,21 @@ section i {
     left: 30px;
 }
 
-section button{
+#submit {
+    width: 450px;
+    height: 50px;
     color: #ffffff;
     background-color: #416FE9;
     border: none;
-    height: 60px;
-    width: 180px;
     border-radius: 10px;
     font-weight: 700;
     position: relative;
-    top: 80px;
-    right: 470px;
+    padding-left: 30px;
+    top: 50px;
+    right: 460px;
     cursor: pointer;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    padding-left: 0px ;
 }
 
 section input{
@@ -477,6 +479,14 @@ footer i {
     #text-1 {
         font-size: 50px;
     }
+
+    #submit {
+        width: 350px;
+    }
+
+    #submit {
+        left: 30px;
+    }
     
 }
 
@@ -490,6 +500,14 @@ footer i {
         top: 50px;
     }
 
+
+    #submit {
+        width: 450px;
+    }
+
+    #submit {
+        left: 30px;
+    }
 }
 
 @media (max-width: 700px){
@@ -534,7 +552,7 @@ footer i {
     }
 
     #Project-1 {
-        width: 220px;
+        width: 280px;
     }
 
     #Project-title {
@@ -544,13 +562,48 @@ footer i {
 
     #text-1 {
         font-size: 50px;
-        left: 30px;
+        left: 20px;
     }
 
     #About-me-p {
         left: 20px;
     }
     #About-me {
-        left: 20px;
+        left: 10px;
     } 
+
+    main button,#welcome,.info-text,#hi-text,#text-1 {
+        left: 10px;
+    }
+
+    #welcome img {
+        left: 220px;
+    }
+    #submit {
+        width: 300px;
+    }
+
+    #submit {
+        left: 30px;
+    }
+}
+
+@media (max-width:320px) {
+    section input  {
+        width: 250px;
+    }
+
+    section textarea {
+        width: 250px;
+    }
+
+    #submit {
+        width: 250px;
+    }
+}
+
+@media (max-width:425px) {
+    #submit {
+        width: 300px;
+    }
 }
