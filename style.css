@@ -615,4 +615,12 @@ footer i {
     main button {
         left: 35px;
     }
+
+    #About-me-p {
+        left: 15px;
+    }
+
+    #About-me {
+        left: 15px;
+    }
 }
