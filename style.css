@@ -573,8 +573,12 @@ footer i {
         left: 10px;
     } 
 
-    main button,#welcome,.info-text,#hi-text,#text-1 {
+    #welcome,.info-text,#hi-text,#text-1 {
         left: 10px;
+    }
+
+    main button {
+        left:10px;
     }
 
     #welcome img {
